@@ -8,6 +8,6 @@ public static class GlobalDemoAssetListener
     static GlobalDemoAssetListener()
     {
         Instance = new DemoAssetListener();
-        GlobalAssetChangeTracker.AddListener(typeof(DemoScriptableObject), Instance);
+        AssetChangeTracker.GlobalAssetChangeTracker.AddListener(typeof(DemoScriptableObject), Instance);
     }
 }

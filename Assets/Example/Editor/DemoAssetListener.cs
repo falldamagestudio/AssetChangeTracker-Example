@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-public class DemoAssetListener : TrackedAssetType.IAssetChangeNotifications
+public class DemoAssetListener : AssetChangeTracker.TrackedAssetType.IAssetChangeNotifications
 {
     public void OnExists(HashSet<string> assetPaths)
     {
