@@ -1,0 +1,3 @@
+[submodule "Assets/External/AssetChangeTracker"]
+	path = Assets/External/AssetChangeTracker
+	url = https://github.com/kalmalyzer/AssetChangeTracker
