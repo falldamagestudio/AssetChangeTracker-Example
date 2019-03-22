@@ -5,7 +5,7 @@ using UnityEngine;
 /// Example asset database listener.
 /// This will print to the console log whenever assets of the appropriate type are added / changed / moved / deleted.
 /// </summary>
-public class DemoAssetListener : AssetChangeTracker.IListener
+public class DemoAssetListener : AssetChangeTracker.IAssetChangeListener
 {
     public void OnExists(HashSet<string> assetPaths)
     {
