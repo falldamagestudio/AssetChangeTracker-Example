@@ -1,7 +1,11 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-public class DemoAssetListener : AssetChangeTracker.TrackedAssetType.IAssetChangeNotifications
+/// <summary>
+/// Example asset database listener.
+/// This will print to the console log whenever assets of the appropriate type are added / changed / moved / deleted.
+/// </summary>
+public class DemoAssetListener : AssetChangeTracker.IListener
 {
     public void OnExists(HashSet<string> assetPaths)
     {
